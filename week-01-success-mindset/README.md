@@ -33,7 +33,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+Just because everybody stands on a particular belief does not make it true. I also believe you should always say the truth, even when nobody is watching. Real integrity lives in private moments. Independent thinking and private honesty are the true foundations of a life well lived.
 
 ---
 
@@ -55,11 +55,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+No amount of sacrifice satisfies an ungrateful expectation.
 
 ### Evidence from my life
 
-Add your answer here...
+ I went out of my way, doing things I was uncomfortable with, just to meet people's expectations. They still felt I should have done more. No sacrifice was ever enough.
 
 ---
 
@@ -67,11 +67,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Standing on the truth will cost you relationships but it will build your character.
 
 ### Evidence from my life
 
-Add your answer here...
+Every time I chose honesty over sentiment, people called me difficult and walked away. But I gained a conscience I could sleep with and respect I could trust.
 
 ---
 
@@ -79,11 +79,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+ Saying no is integrity, not selfishness but most people will never see it that way.
 
 ### Evidence from my life
 
-Add your answer here...
+Each time I said no to what violated my values, I was seen as a bad person. Each time I said yes against my will, I paid a personal cost nobody acknowledged.
 
 ---
 
@@ -108,6 +108,7 @@ Write as if a journalist is writing about you **3 to 7 years from now** (not 20 
   * earned
   * relocated
   * contributed
+
 * Include skills proof:
 
   * projects
@@ -135,13 +136,25 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+My 2.0 Version: A Journey of Growth, Impact, and Excellence
+In 2029, Hope Odu became a recognized technology professional whose journey reflected consistency, discipline, and continuous self-improvement. Over the previous three years, Hope transformed from an aspiring learner into a skilled DevOps and Cloud Engineer, building solutions that created value for businesses and communities alike.
+Hope built and deployed multiple cloud infrastructure projects using AWS, Docker, Kubernetes, and Terraform. Several production-ready applications were shipped and documented through a professional portfolio and GitHub repositories, providing clear evidence of technical growth and practical expertise. These projects demonstrated strong capabilities in automation, CI/CD pipelines, monitoring, security, and cloud operations.
+Along the way, Hope earned respected certifications in cloud computing and DevOps, strengthening both knowledge and credibility. Technical blogs and project documentation were published regularly, helping other learners understand complex concepts through practical examples. These contributions established Hope as a trusted voice within growing technology communities.
+Professionally, Hope secured a rewarding role in the technology industry and contributed to projects that improved operational efficiency, reliability, and customer experience. Consistent performance led to increased responsibilities, including mentoring junior professionals, leading project teams, and supporting organizational goals through innovative solutions.
+Outside the workplace, Hope actively contributed to society by sharing knowledge, mentoring beginners, and participating in community initiatives focused on technology education. Through workshops, online communities, and volunteer efforts, many aspiring professionals gained guidance and confidence to pursue their own career goals.
+Financial growth followed professional development, enabling Hope to invest in learning opportunities, support meaningful causes, and create a lasting positive impact. The journey was defined not only by personal success but also by a commitment to helping others grow.
+By 2029, Hope Odu had become a respected leader, lifelong learner, and contributor whose achievements proved that consistent learning, purposeful action, and service to others can create extraordinary results and inspire future generations.
+
+ **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
+ 
+
+
 
 ### Public Link
 
 Paste your link here:
 
-`__________________________`
+https://www.linkedin.com/in/hope-odu/
 
 ---
 
@@ -175,7 +188,7 @@ If Yes:
 
 Add your answer here...
 
----
+ No**
 
 # Assignment 5. What are 10 non-fiction books you plan to read in the next 1 year?
 
@@ -199,16 +212,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. Mindset – Carol S. Dweck 
+2. Deep Work – Cal Newport 
+3. Make It Stick – Peter C. Brown et al. 
+4. Peak – Anders Ericsson & Robert Pool 
+5. Start With Why – Simon Sinek 
+6. Designing Your Life – Bill Burnett & Dave Evans 
+7. The Startup of You – Reid Hoffman & Ben Casnocha 
+8. The Psychology of Money – Morgan Housel 
+9. Leaders Eat Last – Simon Sinek 
+10. Man's Search for Meaning – Viktor E. Frankl
 
 ---
 
@@ -237,16 +250,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* New skills learned and applied in real projects
+* Sleep quality and energy levels 
+* Exercise and workout consistency 
+* Time spent on high-impact activities 
+* Projects built and documented 
+* Books read and summarized 
+* Networking and professional relationship building 
+* Leadership opportunities and responsibilities taken 
+* Monthly income, savings, and investment tracking  
+* GitHub contributions and portfolio updates 
 
 ---
 
@@ -272,7 +285,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
+**Yes
 
 ---
 
@@ -290,7 +303,14 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+•	Monday: 1 hour DevOps learning + 2 hour project work 
+•	Tuesday: 1 hour certification study + GitHub updates 
+•	Wednesday: 1 hour deep work on cloud/DevOps projects 
+•	Thursday: 1 hour technical reading and note-taking 
+•	Friday: 1 hour portfolio improvement or blog writing 
+•	Saturday: Attend DMI sessions, 
+•	Sunday: Weekly review, goal tracking, planning for the next week, and rest 
+
 
 ---
 
@@ -298,11 +318,17 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+•	Monday – Thursday: 7:30 PM – 8:30 PM 
+•	Saturday: DMI SESSION 
+•	Sunday: 4:00 PM – 5:00 PM 
+
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+•	5 focused learning sessions per week 
+•	1 weekly review session 
+•	Total: 6 structured sessions per week 
+
 
 ---
 
@@ -316,7 +342,9 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+Keep phone on silent or away from the study area.
+No YouTube, Facebook, Instagram, or TikTok unless related to learning.
+Maintain a clean and organized workspace before each session.
 
 ---
 
@@ -324,28 +352,28 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+. I learned that progress comes from taking small actions daily rather than waiting for perfect conditions
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I noticed that I sometimes spend too much time thinking about what to do instead of starting immediately
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+To build consistency,
 
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+https://www.linkedin.com/posts/hope-odu_dmi-cohort-3-week-01-my-20-version-a-share-7478785276018946048-Ju-D/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL: **https://www.linkedin.com/posts/hope-odu_dmi-cohort-3-week-01-my-20-version-a-share-7478785276018946048-Ju-D/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q**  
+- Blog / Medium : **https://medium.com/@hopeodu71/dmi-cohort-3-week-01-my-2-0-afefc2f7e607**  
 
 ---
 
