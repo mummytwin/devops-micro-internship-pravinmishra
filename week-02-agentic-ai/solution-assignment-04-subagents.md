@@ -111,7 +111,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 ## GitHub Repository URL
 
-https://github.com/mummytwin/Ultimate-Agentic-DevOps-with-Claude-Code.git
+https://github.com/mummytwin/devops-micro-internship-pravinmishra.git
 
 `__________________________`
 
