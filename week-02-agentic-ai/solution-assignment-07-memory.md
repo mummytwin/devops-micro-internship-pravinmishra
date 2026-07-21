@@ -97,7 +97,7 @@ https://www.linkedin.com/posts/hope-odu_1a1a2e-16213e-dmibypravinmishra-share-74
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
+https://github.com/mummytwin/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
 `__________________________`
 
