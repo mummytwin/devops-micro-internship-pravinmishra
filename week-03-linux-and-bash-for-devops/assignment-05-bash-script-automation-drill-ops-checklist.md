@@ -414,7 +414,7 @@ Variables store the name, cohort, date, and log file path used throughout. An ar
 
 Paste your LinkedIn post URL here:
 
-`https://www.linkedin.com/posts/hope-odu_bash-scripting-automation-activity-7487998089279131648-BUAM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q`
+https://www.linkedin.com/posts/hope-odu_bash-scripting-automation-activity-7487998089279131648-BUAM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q`
 
 ---
 

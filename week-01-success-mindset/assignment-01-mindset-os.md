@@ -145,7 +145,7 @@ Outside the workplace, Hope actively contributed to society by sharing knowledge
 Financial growth followed professional development, enabling Hope to invest in learning opportunities, support meaningful causes, and create a lasting positive impact. The journey was defined not only by personal success but also by a commitment to helping others grow.
 By 2029, Hope Odu had become a respected leader, lifelong learner, and contributor whose achievements proved that consistent learning, purposeful action, and service to others can create extraordinary results and inspire future generations.
 
- **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
+ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).
  
 
 
@@ -365,20 +365,16 @@ To build consistency,
 
 ### LinkedIn Post
 
-Paste your LinkedIn post link here:
+https://www.linkedin.com/posts/hope-odu_dmi-cohort-3-week-01-my-20-version-a-share-7478785276018946048-Ju-D/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q:
 
-<<<<<<< HEAD:week-01-success-mindset/README.md
-https://www.linkedin.com/posts/hope-odu_dmi-cohort-3-week-01-my-20-version-a-share-7478785276018946048-Ju-D/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q
-=======
 `Add your URL here`
->>>>>>> upstream/main:week-01-success-mindset/assignment-01-mindset-os.md
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **https://www.linkedin.com/posts/hope-odu_dmi-cohort-3-week-01-my-20-version-a-share-7478785276018946048-Ju-D/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q**  
-- Blog / Medium : **https://medium.com/@hopeodu71/dmi-cohort-3-week-01-my-2-0-afefc2f7e607**  
+- LinkedIn Post URL: https://www.linkedin.com/posts/hope-odu_dmi-cohort-3-week-01-my-20-version-a-share-7478785276018946048-Ju-D/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q**  
+- Blog / Medium : https://medium.com/@hopeodu71/dmi-cohort-3-week-01-my-2-0-afefc2f7e607 
 
 ---
 

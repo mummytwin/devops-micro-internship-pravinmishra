@@ -20,7 +20,7 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 #### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
-![Assignment-2](<screenshots/Assignment 2/Screenshot 1 — Generic response before CLAUDE.md.png>)
+![](<screenshots/Assignment 2/Screenshot 1 — Generic response before CLAUDE.md.png>)
 
 ---
 
@@ -34,8 +34,8 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 #### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
-![Assignment-2](<screenshots/Assignment 2/Screenshot 2 — Auto-generated init output 1.png>)
-![Assignment-2](<screenshots/Assignment 2/Screenshot 2 — Auto-generated init output 2.png>)
+![](<screenshots/Assignment 2/Screenshot 2 — Auto-generated init output 1.png>)
+![](<screenshots/Assignment 2/Screenshot 2 — Auto-generated init output 2.png>)
 
 ---
 
@@ -49,7 +49,7 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
-![Assignment-2](<screenshots/Assignment 2/Screenshot 3 — All 5 sections customized.png>)
+![](<screenshots/Assignment 2/Screenshot 3 — All 5 sections customized.png>)
 
 ---
 
@@ -63,13 +63,13 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 #### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
-![Assignment-2](<screenshots/Assignment 2/Screenshot 4 — Claude mentions S3, CloudFront, Terraform.png>)
+![](<screenshots/Assignment 2/Screenshot 4 — Claude mentions S3, CloudFront, Terraform.png>)
 
 ---
 
 #### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
-![Assignment-2](<screenshots/Assignment 2/Screenshot 5 — Claude refuses React request.png>)
+![](<screenshots/Assignment 2/Screenshot 5 — Claude refuses React request.png>)
 
 ---
 
@@ -83,7 +83,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
-![Asssignment-2](<screenshots/Assignment 2/Screenshot 6 — CLAUDE.md visible on GitHub.png>)
+![](<screenshots/Assignment 2/Screenshot 6 — CLAUDE.md visible on GitHub.png>)
 
 ---
 
@@ -97,9 +97,9 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 ## GitHub Repository URL
 
-https://github.com/mummytwin/Ultimate-Agentic-DevOps-with-Claude-Code.git
+Paste your GitHub Repository URL here:
 
-`Add your URL here`
+https://github.com/mummytwin/Ultimate-Agentic-DevOps-with-Claude-Code.git.
 
 ---
 

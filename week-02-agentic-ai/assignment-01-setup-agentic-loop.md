@@ -20,13 +20,13 @@ Install the Claude Code CLI globally and authenticate it using your Anthropic ac
 
 #### Screenshot 1 — Terminal showing `claude --version` with the version number visible
 
-![Assignment-01](<screenshots/screenshoot-1 of claude --version.png>)
+![](<screenshots/Assignment 1/screenshoot-1 of claude --version.png>)
 
 ---
 
 #### Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
 
-![Assignment-01](<screenshots/screenshoot-2 claude authentification.png>)
+![](<screenshots/Assignment 1/screenshoot-2 claude authentification.png>)
 
 ---
 
@@ -40,7 +40,7 @@ Fork the provided GitHub repository, clone it to your local machine, and open it
 
 #### Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
 
-![Assignment-01](<screenshots/Screenshot-3 of project files showing (2).png>)
+![](<screenshots/Assignment 1/Screenshot-3 of project files showing (2).png>)
 
 ---
 
@@ -54,13 +54,13 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather �
 
 #### Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)
 
-![Assignment-01](<screenshots/Screenshot 4.png>)
+![](<screenshots/Assignment 1/Screenshot 4.png>)
 
 ---
 
 #### Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
 
-![Assignment-01](<screenshots/Screenshot 5.png>)
+![](<screenshots/Assignment 1/Screenshot 5.png>)
 
 ---
 
@@ -75,9 +75,9 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather �
 
 ## GitHub Repository URL
 
-https://github.com/mummytwin/Ultimate-Agentic-DevOps-with-Claude-Code.git
+Paste your GitHub Repository URL here:
 
-`Add your URL here`
+https://github.com/mummytwin/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
 ---
 

@@ -46,8 +46,8 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-![Assignment 8](<screenshots/Assignment 8/Screenshot from linkedin.png>)
-![Assignment 8](<screenshots/Assignment 8/Screenshot  from Mdium.png>)
+![](<screenshots/Assignment 8/Screenshot from linkedin.png>)
+![](<screenshots/Assignment 8/Screenshot  from Mdium.png>)
 
 ---
 
@@ -55,9 +55,7 @@ You can publish your blog on:
 
 https://www.linkedin.com/posts/hope-odu_reflection-week-2-by-hope-odu-the-biggest-activity-7485295882024865793-IRpy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q
 
-https://medium.com/@hopeodu71
-
-`Add your URL here`
+https://medium.com/@hopeodu71`
 
 ---
 
@@ -95,7 +93,7 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-![Assignment 8](<screenshots/Assignment 8/Screenshot on linkedin(what i learnt in week 2).png>)
+![](<screenshots/Assignment 8/Screenshot on linkedin(what i learnt in week 2).png>)
 
 ---
 
@@ -132,9 +130,10 @@ My proudest moment was when the PreToolUse hook blocked terraform destroy. I had
 ---
 
 ### LinkedIn Post Link:
-https://www.linkedin.com/posts/hope-odu_what-i-learned-about-agentic-ai-and-devops-share-7485302124734578688-Y1nd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q
 
-`Add your URL here`
+Paste your LinkedIn post URL here:
+
+https://www.linkedin.com/posts/hope-odu_what-i-learned-about-agentic-ai-and-devops-share-7485302124734578688-Y1nd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q
 
 ---
 

@@ -20,7 +20,7 @@ Discover exactly where Claude Code stores memory for this project.
 
 #### Screenshot 1 — Memory file path shown by Claude
 
-![Assignment 7](<screenshots/Assignment 7/Screenshot 1.png>)
+![](<screenshots/Assignment 7/Screenshot 1.png>)
 
 ---
 
@@ -34,13 +34,13 @@ Teach Claude three specific facts about the project and instruct it to save them
 
 #### Screenshot 2 — Claude confirming the memory was saved
 
-![Assignment 7](<screenshots/Assignment 7/Screenshot 2.png>)
+![](<screenshots/Assignment 7/Screenshot 2.png>)
 
 ---
 
 #### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
-![Assignment 7](<screenshots/Assignment 7/Screenshot 3.png>)
+![](<screenshots/Assignment 7/Screenshot 3.png>)
 
 ---
 
@@ -54,7 +54,7 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 
 #### Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
 
-![Assignment 7](<screenshots/Assignment 7/Screenshot 4.png>)
+![](<screenshots/Assignment 7/Screenshot 4.png>)
 
 ---
 
@@ -68,13 +68,13 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 #### Screenshot 5 — Claude recalling hero section colors
 
-![Assignment 7](<screenshots/Assignment 7/Screenshot 5.png>)
+![](<screenshots/Assignment 7/Screenshot 5.png>)
 
 ---
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
-![Assignment 7](<screenshots/Assignment 7/Screenshot 6.png>)
+![](<screenshots/Assignment 7/Screenshot 6.png>)
 
 ---
 
@@ -89,17 +89,17 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 ## Linkedin Post Link
 
-https://www.linkedin.com/posts/hope-odu_1a1a2e-16213e-dmibypravinmishra-share-7485281723870609408-cYN9/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q
+Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/hope-odu_1a1a2e-16213e-dmibypravinmishra-share-7485281723870609408-cYN9/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q
 
 ---
 
 ## GitHub Repository URL
 
-https://github.com/mummytwin/Ultimate-Agentic-DevOps-with-Claude-Code.git
+Paste your GitHub URL here:
 
-`Add your URL here`
+https://github.com/mummytwin/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
 ---
 

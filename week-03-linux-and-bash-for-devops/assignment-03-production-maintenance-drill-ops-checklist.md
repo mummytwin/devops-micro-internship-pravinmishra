@@ -379,7 +379,7 @@ Unused cloud resources should be stopped or terminated to reduce costs, improve 
 
 Paste your LinkedIn post URL here:
 
-`https://www.linkedin.com/posts/hope-odu_devops-aws-linux-activity-7487491065235615763-ve3T?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q`
+https://www.linkedin.com/posts/hope-odu_devops-aws-linux-activity-7487491065235615763-ve3T?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q`
 
 ---
 

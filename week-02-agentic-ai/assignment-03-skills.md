@@ -20,7 +20,7 @@ Create the required `.claude/skills/` directory structure for all skills.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
 
-![Assignment 3](<screenshots/Assignment 3 screenshot/Screenshot 1.png>)
+![](<screenshots/Assignment 3 screenshot/Screenshot 1.png>)
 
 ---
 
@@ -34,13 +34,13 @@ Place all required skill files into their correct directories and verify their c
 
 #### Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
 
-![Assignment 3](<screenshots/Assignment 3 screenshot/Screenshot 2.png>)
+![](<screenshots/Assignment 3 screenshot/Screenshot 2.png>)
 
 ---
 
 #### Screenshot 3 — Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
 
-![Assignment 3](<screenshots/Assignment 3 screenshot/Screenshot 3.png>)
+![](<screenshots/Assignment 3 screenshot/Screenshot 3.png>)
 
 ---
 
@@ -54,13 +54,13 @@ Execute the `/scaffold-terraform` skill to generate a full Terraform infrastruct
 
 #### Screenshot 4 — Claude's response showing the scaffold complete with the file list
 
-![Assignment 3](<screenshots/Assignment 3 screenshot/Screenshot 4.png>)
+![](<screenshots/Assignment 3 screenshot/Screenshot 4.png>)
 
 ---
 
 #### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
-![Assignment 3](<screenshots/Assignment 3 screenshot/Screenshot 5.png>)
+![](<screenshots/Assignment 3 screenshot/Screenshot 5.png>)
 
 ---
 
@@ -74,7 +74,7 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 #### Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
-![Assignment 3](<screenshots/Assignment 3 screenshot/Screenshot 6.png>)
+![](<screenshots/Assignment 3 screenshot/Screenshot 6.png>)
 
 ---
 
@@ -88,15 +88,15 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 ## GitHub Repository URL
 
-https://github.com/mummytwin/Ultimate-Agentic-DevOps-with-Claude-Code.git
+Paste your GitHub Repository URL here:
 
-`Add your URL here`
+https://github.com/mummytwin/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
 ## LinkedIn post URL
 
-https://www.linkedin.com/posts/hope-odu_terraform-ugcPost-7482195117408403456-pozH/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q
+Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/hope-odu_terraform-ugcPost-7482195117408403456-pozH/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q
 ---
 
 # Completion Checklist

@@ -20,8 +20,8 @@ Generate a GitHub Personal Access Token (PAT) that will be used for MCP authenti
 
 #### Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
 
-![Assignment 5](<screenshots/Assignment 5/Screenshot 1{a}.png>)
-![Assignment 5](<screenshots/Assignment 5/Screenshot 1{b}.png>)
+![](<screenshots/Assignment 5/Screenshot 1{a}.png>)
+![](<screenshots/Assignment 5/Screenshot 1{b}.png>)
 
 ---
 
@@ -35,7 +35,7 @@ Create and configure the `.mcp.json` file to define the GitHub MCP server.
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
 
-![Assignment 5](<screenshots/Assignment 5/Screenshot 2.png>)
+![](<screenshots/Assignment 5/Screenshot 2.png>)
 
 ---
 
@@ -49,7 +49,7 @@ Store your GitHub token securely in `.claude/settings.local.json` and ensure it 
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
-![Assignment 5](<screenshots/Assignment 5/Screenshot 3.png>)
+![](<screenshots/Assignment 5/Screenshot 3.png>)
 
 ---
 
@@ -63,7 +63,7 @@ Confirm that the GitHub MCP server is successfully connected inside Claude Code.
 
 #### Screenshot 4 — `/mcp` output showing `github: connected`
 
-![Assignment 5](<screenshots/Assignment 5/Screenshot 4.png>)
+![](<screenshots/Assignment 5/Screenshot 4.png>)
 
 ---
 
@@ -77,7 +77,7 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 #### Screenshot 5 — Claude's response showing the GitHub MCP tool call and the retrieved README.md content.
 
-![Assignment 5](<screenshots/Assignment 5/Screenshot 5.png>)
+![](<screenshots/Assignment 5/Screenshot 5.png>)
 
 ---
 
@@ -93,9 +93,9 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 ## GitHub Repository URL
 
-https://github.com/mummytwin/Ultimate-Agentic-DevOps-with-Claude-Code.git
+Paste your GitHub Repository URL here:
 
-`Add your URL here`
+https://github.com/mummytwin/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
 ---
 

@@ -54,13 +54,13 @@ The tf-writer uses inherit because it needs to match whatever model the orchestr
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-![Assignment 4](<screenshots/Assignment 4 screenshot/Screenshot 2.png>)
+![](<screenshots/Assignment 4 screenshot/Screenshot 2.png>)
 
 ---
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-![Assignment 4](<screenshots/Assignment 4 screenshot/Screenshot 3.png>)
+![](<screenshots/Assignment 4 screenshot/Screenshot 3.png>)
 
 ---
 
@@ -74,13 +74,13 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
-![Assignment 4](<screenshots/Assignment 4 screenshot/Screenshot 4.png>)
+![](<screenshots/Assignment 4 screenshot/Screenshot 4.png>)
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-![Assignment 4](<screenshots/Assignment 4 screenshot/Screenshot 5.png>)
+![](<screenshots/Assignment 4 screenshot/Screenshot 5.png>)
 
 ---
 
@@ -94,9 +94,9 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
-![Assignment 4](<screenshots/Assignment 4 screenshot/Screenshot 6{1}.png>)
-![Assignment 4](<screenshots/Assignment 4 screenshot/Screenshot 6{2}.png>)
-![Assignment 4](<screenshots/Assignment 4 screenshot/Screenshot 6{3}.png>)
+![](<screenshots/Assignment 4 screenshot/Screenshot 6{1}.png>)
+![](<screenshots/Assignment 4 screenshot/Screenshot 6{2}.png>)
+![](<screenshots/Assignment 4 screenshot/Screenshot 6{3}.png>)
 
 
 ---
@@ -111,9 +111,9 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 ## GitHub Repository URL
 
-https://github.com/mummytwin/devops-micro-internship-pravinmishra.git
+Paste your GitHub Repository URL here:
 
-`Add your URL here`
+https://github.com/mummytwin/devops-micro-internship-pravinmishra.git
 
 ---
 

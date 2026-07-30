@@ -120,7 +120,7 @@ Verify the deployed website and Nginx service are healthy.
 
 Paste your LinkedIn post URL here:
 
-`https://www.linkedin.com/posts/hope-odu_deployeding-epicreads-portfolio-website-ugcPost-7487798340173283328-wgdS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q`
+https://www.linkedin.com/posts/hope-odu_deployeding-epicreads-portfolio-website-ugcPost-7487798340173283328-wgdS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q`
 
 ---
 

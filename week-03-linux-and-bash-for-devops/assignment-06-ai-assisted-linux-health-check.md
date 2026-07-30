@@ -484,7 +484,7 @@ VERIFY: linux-triage.sh re-ran and confirmed HEALTHY (exit code 0) with all five
 
 Paste your LinkedIn post URL here:
 
-`https://www.linkedin.com/posts/hope-odu_devops-agenticai-linux-activity-7488203694078050304-JnVy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q`
+https://www.linkedin.com/posts/hope-odu_devops-agenticai-linux-activity-7488203694078050304-JnVy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q`
 
 ---
 
@@ -498,7 +498,7 @@ Paste your LinkedIn post URL here:
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:
 
-`Add your URL here`
+https://github.com/mummytwin/linux-triage-project.git
 
 ---
 
