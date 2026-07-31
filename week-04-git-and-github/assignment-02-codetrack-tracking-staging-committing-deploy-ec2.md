@@ -163,9 +163,9 @@ Install and start Nginx on your EC2 instance, then copy `index.html` and `style.
 
 #### LinkedIn Post URL
 
-https://www.linkedin.com/posts/hope-odu_devops-git-aws-activity-7488562400972128256-uq_c?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q:
+Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/hope-odu_devops-git-aws-activity-7488562400972128256-uq_c?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q:
 
 ---
 
