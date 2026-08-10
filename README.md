@@ -130,7 +130,7 @@ Week 04 → Git & GitHub
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/hope-odu_example-domain-share-7492658165596073984-KNoQ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q| https://medium.com/@hopeodu71/my-learning-journey-chatgpt-networking-architecture-dns-vs-code-im-excited-to-share-some-of-f425321df726?sharedUserId=hopeodu71|
 | 01 | Success Mindset | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/hope-odu_dmi-cohort-3-week-01-my-20-version-a-share-7478785276018946048-Ju-D/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q| https://medium.com/@hopeodu71/dmi-cohort-3-week-01-my-2-0-afefc2f7e607|
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/hope-odu_what-i-learned-about-agentic-ai-and-devops-share-7485302124734578688-Y1nd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q | https://medium.com/@hopeodu71 |
 | 03 | Linux for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/hope-odu_devops-agenticai-linux-activity-7488203694078050304-JnVy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q` | https://medium.com/@hopeodu71 |
