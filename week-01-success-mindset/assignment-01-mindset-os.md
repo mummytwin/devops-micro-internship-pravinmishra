@@ -154,8 +154,7 @@ By 2029, Hope Odu had become a respected leader, lifelong learner, and contribut
 
 Paste your link here:
 
-https://www.linkedin.com/in/hope-odu/
-`Add your URL here`
+`https://www.linkedin.com/posts/hope-odu_dmi-cohort-3-week-01-my-20-version-a-activity-7478785276555755520-V_AL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q`
 
 ---
 
@@ -187,9 +186,7 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
-
- No**
+No
 
 # Assignment 5. What are 10 non-fiction books you plan to read in the next 1 year?
 
@@ -286,7 +283,7 @@ Examples:
 
 Answer:
 
-**Yes
+Yes
 
 ---
 
@@ -353,7 +350,7 @@ Maintain a clean and organized workspace before each session.
 
 ### Biggest insight I got about myself this week
 
-. I learned that progress comes from taking small actions daily rather than waiting for perfect conditions
+I learned that progress comes from taking small actions daily rather than waiting for perfect conditions
 
 ### My biggest weakness/loop I noticed
 
@@ -365,9 +362,7 @@ To build consistency,
 
 ### LinkedIn Post
 
-https://www.linkedin.com/posts/hope-odu_dmi-cohort-3-week-01-my-20-version-a-share-7478785276018946048-Ju-D/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q:
-
-`Add your URL here`
+`https://www.linkedin.com/posts/hope-odu_dmi-cohort-3-week-01-my-20-version-a-share-7478785276018946048-Ju-D/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q:`
 
 ---
 

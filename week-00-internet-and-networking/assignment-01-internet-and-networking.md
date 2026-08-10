@@ -25,7 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![](<screenshots/Screenshot 1.png>)
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -34,7 +34,7 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I learnt that a protocol is like a set of communication rules that tells devices how to talk to each other.
 
 ---
 
@@ -59,7 +59,8 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+The Internet is a global system of interconnected computer networks that allows devices to communicate and share information worldwide. It connects millions of private, public, academic, and business networks using standardized communication rules known as protocols. Networking refers to the process of linking computers and other devices so they can exchange data and resources efficiently. Through networking, users can access websites, send emails, stream videos, and use online services. Technologies like routers, switches, and cables help manage and direct data traffic across networks. The Internet relies on key protocols such as TCP/IP to ensure reliable communication between devices. Overall, the Internet and networking play a vital role in modern communication, business, education, and entertainment by enabling fast and seamless information exchange across the globe.
+
 
 ---
 
@@ -91,7 +92,8 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![](<screenshots/Screenshot 2a.png>)
+![](<screenshots/Screenshot 2b.png>)
 
 
 Replace `task-3-diagram.png` with your actual diagram file name.
@@ -102,18 +104,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* JavaScript
+* HTML
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js
+* Python
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MySQL
+* PostgreSQL
 
 ---
 
@@ -142,7 +144,8 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+A domain name is a simple, human-readable address used to access websites, like example.com, instead of using complex IP addresses. The Domain Name System (DNS) works as a translator that converts these names into numerical IP addresses so computers can identify each other. When you type a website name, DNS finds the correct IP and connects you to the site. Along with TCP/IP, it ensures smooth and reliable communication across the Internet.
+
 
 ---
 
@@ -178,7 +181,7 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![](<screenshots/Screenshot 3 VScode.png>)
 
 
 Replace `task-5-vscode.png` with your actual screenshot file name.
@@ -218,7 +221,7 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+https://www.linkedin.com/posts/hope-odu_example-domain-share-7492658165596073984-KNoQ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q.
 ```
 
 ---
@@ -227,7 +230,62 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+My Learning Journey: ChatGPT, Networking, Architecture, DNS & VS Code
+I’m excited to share some of the concepts I’ve been learning as part of my 
+
+DevOps learning journey.
+
+This experience has helped me understand how applications work, how computers communicate, and how developers set up their working environments.
+
+ChatGPT
+
+I explored how ChatGPT can support learning and problem-solving by helping with explanations, brainstorming, troubleshooting, and understanding technical concepts.
+I also learned that AI should be used as a learning assistant, while still understanding and verifying the solutions provided.
+Internet & Networking
+
+I learned the fundamentals of how devices communicate over networks.
+Some of the concepts I explored include:
+
+IP addresses 
+Clients and servers 
+Network protocols 
+HTTP/HTTPS 
+Ports 
+
+Data transmission:
+I learned that networking is a fundamental part of DevOps because applications and servers need to communicate reliably.
+
+App Architecture:
+I learned about the basic structure of modern applications:
+Frontend → Backend → Database
+Frontend: The part users interact with, such as HTML, CSS, JavaScript, or React. 
+Backend: Handles application logic and processes requests using technologies such as Node.js or Python. 
+Database: Stores and manages application data using systems such as MySQL or PostgreSQL. 
+
+Understanding these layers helped me see how different components of an application work together.
+
+DNS
+I learned that DNS (Domain Name System) translates human-readable domain names into IP addresses.
+For example:
+example.com → IP address
+Instead of remembering a numerical IP address, users can simply enter a domain name into their browser.
+This helped me understand an important part of how users reach websites on the internet.
+
+VS Code Setup
+I also set up and explored Visual Studio Code as my development environment.
+
+I practiced: Creating and organizing project files Working with folders 
+Writing code Using the integrated terminal 
+
+Managing scripts and projects 
+
+This setup provides a practical environment for continuing my coding and DevOps projects.
+  
+Key Takeaway
+This learning experience has given me a stronger foundation in AI, networking, application architecture, DNS, and development tools.
+I’m looking forward to continuing to build, practice, troubleshoot, and improve my DevOps skills.
+
+#DevOps #Networking #DNS #CloudComputing #ChatGPT #VSCode #SoftwareDevelopment #LearningJourney #TechSkills
 
 ---
 
@@ -235,19 +293,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+using chatGPT was more easier for me.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+The Architecture & Stack Diagrams was more difficult
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+I will improve more on navigating the Architecture & Stack Diagrams
 
 ---
 
