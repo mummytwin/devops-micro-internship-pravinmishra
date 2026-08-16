@@ -20,7 +20,7 @@ Choose Team Mode or Solo Mode, and document how each Scrum role (Product Owner, 
 
 #### Screenshot 1 — Jira "Create project" screen, or the project sidebar after creation
 
-Add your screenshot here.
+![](<screenshots/Assignment 4/Screenshot 1.png>).
 
 ---
 
@@ -42,7 +42,7 @@ Create a Team-managed Scrum project named `Gotto Job – Team <#>` (Team Mode) o
 
 #### Screenshot 2 — Project created page showing the project name and key
 
-Add your screenshot here.
+![](<screenshots/Assignment 4/Screenshot 2.png>).
 
 ---
 
@@ -56,7 +56,7 @@ Create the Epic `Improve Gotto Job UI discoverability & trust` to group the UI i
 
 #### Screenshot 3 — Backlog showing the Epic panel with the Epic visible
 
-Add your screenshot here.
+![](<screenshots/Assignment 4/Screenshot 3.png>).
 
 ---
 
@@ -70,13 +70,13 @@ Create at least six Stories under the Epic, estimate each with 1, 2, or 3 story 
 
 #### Screenshot 4 — Backlog showing the Epic and at least six Stories under it
 
-Add your screenshot here.
+![](<screenshots/Assignment 4/Screenshot 4.png>).
 
 ---
 
 #### Screenshot 5 — One Story opened showing its Story Points and acceptance criteria filled in
 
-Add your screenshot here.
+![](<screenshots/Assignment 4/Screenshot 5.png>).
 
 ---
 
@@ -90,7 +90,7 @@ Confirm the Story Points (1, 2, or 3) for each Story and record brief reasoning 
 
 #### Screenshot 6 — Backlog showing Story Points visible, or two or three Stories opened showing their points
 
-Add your screenshot here.
+![](<screenshots/Assignment 4/Screenshot 6.png>).
 
 ---
 
@@ -98,7 +98,23 @@ Add your screenshot here.
 
 For each story, explain in one or two lines why it is a 1, 2, or 3 (mention any debate, even in Solo Mode).
 
-Write your answer here.
+Primary CTA color (1 pt)
+One CSS property change applied site-wide. Considered a 2 briefly because it affects multiple pages, but since it's a single selector update in the stylesheet, 1 point was the right call.
+
+Job detail Apply Now CTA (1 pt)
+Adding one HTML button with a mailto: or # link. No backend logic, no new page, no routing. Straightforward addition above the fold  clearly a 1.
+
+Hero tagline clarity (1 pt)
+Single text change in one HTML element with no layout or styling impact. In Solo Mode, no debate was needed, the effort is clearly minimal and the value is immediate.
+
+Footer trust links (1 pt)
+Two anchor tags added to an existing footer element. Minimal markup change with no CSS complexity. Debated whether internal routing added risk, but since links point to existing pages, 1 point stands.
+
+Job card typography (2 pts)
+Requires identifying all card title CSS selectors across the Job Listing and Job Detail pages and verifying visual dominance on both. More surface area and cross-page testing than a single-element change  justified 2 points.
+
+Posted on date text (1 pt)
+Static text addition per card. Simple but requires consistent application across multiple job cards. Considered a 2 due to repetition across cards, but since the change is copy-paste with no logic, 1 point was agreed upon.
 
 ---
 
@@ -112,13 +128,13 @@ Create Sprint 1, move three or four Stories into it (approximately 3–6 points)
 
 #### Screenshot 7 — Sprint 1 with the selected Stories inside it
 
-Add your screenshot here.
+![](<screenshots/Assignment 4/Screenshot 7.png>).
 
 ---
 
 #### Screenshot 8 — One Story showing the Sub-tasks created
 
-Add your screenshot here.
+![](<screenshots/Assignment 4/Screenshot 8.png>).
 
 ---
 
@@ -132,7 +148,8 @@ Open the Burndown Chart and confirm it exists for Sprint 1. It is acceptable if 
 
 #### Screenshot 9 — Burndown Chart page opened, even if empty
 
-Add your screenshot here.
+![](<screenshots/Assignment 4/Screenshot 9(a).png>).
+![](<screenshots/Assignment 4/Screenshot 9(b).png>)
 
 ---
 
@@ -146,19 +163,20 @@ Implement one small UI-only Story from Sprint 1, commit it, deploy it live, and 
 
 #### Screenshot 10 — Jira board showing the Story moved to Done
 
-Add your screenshot here.
+![](<screenshots/Assignment 4/Screenshot 10(a).png>).
+![](<screenshots/Assignment 4/Screenshot 10(b).png>)
 
 ---
 
 #### Screenshot 11 — Git commit output
 
-Add your screenshot here.
+![](<screenshots/Assignment 4/Screenshot 11.png>).
 
 ---
 
 #### Screenshot 12 — Live URL in the browser showing the UI change, with the URL visible
 
-Add your screenshot here.
+![](<screenshots/Assignment 4/Screenshot 12.png>).
 
 ---
 
@@ -172,7 +190,8 @@ Add a retro comment covering what went well, what to improve, one Scrum pillar o
 
 #### Screenshot 13 — Jira retro comment visible
 
-Add your screenshot here.
+![](<screenshots/Assignment 4/Screenshot 13(a).png>).
+![](<screenshots/Assignment 4/Screenshot 13(b).png>)
 
 ---
 
@@ -188,13 +207,13 @@ Publish a LinkedIn post about what you delivered, including your live URL, three
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/hope-odu_gotto-job-backlog-refinement-ugcPost-7494474737377730560-D2dC/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q
 
 ---
 
 #### Screenshot 14 — Published LinkedIn post
 
-Add your screenshot here.
+![](<screenshots/Assignment 4/Screenshot of linkedin post.png>).
 
 ---
 
