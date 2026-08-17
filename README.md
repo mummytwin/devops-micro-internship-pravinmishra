@@ -82,8 +82,8 @@ Week 03 → Linux & Bash for DevOps
 Week 04 → Git & GitHub
 [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/)
 
-<!-- Week 05 → DevOps Lifecycle & Agile -->
-<!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
+Week 05 → DevOps Lifecycle & Agile
+[![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/)
 
 <!-- Week 06 → AWS Cloud -->
 <!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
@@ -136,7 +136,7 @@ Week 04 → Git & GitHub
 | 03 | Linux for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/hope-odu_devops-agenticai-linux-activity-7488203694078050304-JnVy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q` | https://medium.com/@hopeodu71 |
 | 04 | Bash Scripting | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/hope-odu_open-source-collaboration-activity-7489057054909861889-BgRK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q | https://medium.com/@hopeodu71 |
 | 05 | Git & GitHub | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/hope-odu_devops-git-github-activity-7489081954659676160-Ujhb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q | https://medium.com/@hopeodu71 |
-| 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
+| 06 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/hope-odu_week-05-devops-lifecycle-activity-7492911662426107904-m97d?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q` | https://medium.com/@hopeodu71/week-05-devops-lifecycle-4a06632fff36?sharedUserId=hopeodu71 |
 | 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 09 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
