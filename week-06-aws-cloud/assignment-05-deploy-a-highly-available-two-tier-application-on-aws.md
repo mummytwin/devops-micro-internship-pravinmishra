@@ -20,31 +20,32 @@ Build a VPC (10.0.0.0/16) with two public and two private subnets across two Ava
 
 #### Screenshot 1 — VPC details showing CIDR 10.0.0.0/16
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 1.png>).
 
 ---
 
 #### Screenshot 2 — Subnets list showing four subnets and their Availability Zones
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 2(a).png>).
+![](<screenshots/Assignment 5/Screenshot 2(b).png>)
 
 ---
 
 #### Screenshot 3 — Public route table showing the Internet Gateway route and both public-subnet associations
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 3.png>).
 
 ---
 
 #### Screenshot 4 — Private route table showing the NAT Gateway route and both private-subnet associations
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 4.png>).
 
 ---
 
 #### Screenshot 5 — NAT Gateway status showing Available and the Elastic IP
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 5.png>).
 
 ---
 
@@ -58,19 +59,19 @@ Create `ha-alb-sg` (HTTP public), `ha-web-sg` (HTTP only from `ha-alb-sg`, SSH f
 
 #### Screenshot 6 — ALB Security Group inbound rules
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 6.png>).
 
 ---
 
 #### Screenshot 7 — EC2 Security Group inbound rules showing the ALB Security Group reference and SSH from your IP
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 7.png>).
 
 ---
 
 #### Screenshot 8 — RDS Security Group inbound rule showing the database port allowed only from the EC2 Security Group
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 8.png>).
 
 ---
 
@@ -84,13 +85,13 @@ Launch a private, Multi-AZ RDS database (MySQL or PostgreSQL) using the private 
 
 #### Screenshot 9 — RDS summary showing Multi-AZ = Yes and Publicly accessible = No
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 9.png>).
 
 ---
 
 #### Screenshot 10 — RDS connectivity section showing the DB Subnet Group and Security Group
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 10.png>).
 
 ---
 
@@ -104,13 +105,13 @@ Create a Launch Template whose user data installs the web-server runtime, deploy
 
 #### Screenshot 11 — Launch Template details showing that user data exists, including a visible snippet
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 11.png>).
 
 ---
 
 #### Screenshot 12 — A running instance created from the template showing that the application responds on port 80 through a local test or browser using its public IP
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot  12.png>).
 
 ---
 
@@ -124,13 +125,13 @@ Create an internet-facing ALB across both public subnets with an HTTP listener a
 
 #### Screenshot 13 — ALB details showing two public subnets in two Availability Zones
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 13.png>).
 
 ---
 
 #### Screenshot 14 — Target group showing at least one healthy target
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 14.png>).
 
 ---
 
@@ -144,13 +145,14 @@ Create an Auto Scaling Group from the Launch Template across both public subnets
 
 #### Screenshot 15 — Auto Scaling Group showing desired, minimum, and maximum capacity and the selected subnet Availability Zones
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 15(a).png>).
+![](<screenshots/Assignment 5/Screenshot 15(b).png>)
 
 ---
 
 #### Screenshot 16 — EC2 instances list showing two running instances in different Availability Zones
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 16.png>).
 
 ---
 
@@ -164,13 +166,13 @@ Confirm the application communicates with the RDS database through the ALB DNS n
 
 #### Screenshot 17 — Browser showing the application loaded through the ALB DNS name with the URL visible
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 17.png>).
 
 ---
 
 #### Screenshot 18 — Proof of a database write through a UI message or database query output
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 18.png>).
 
 ---
 
@@ -186,25 +188,25 @@ Test B: simulate an Availability Zone impact (stop, detach, or reduce desired ca
 
 #### Screenshot 19 — EC2 showing the terminated instance and the newly launched instance; timestamps are helpful
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 19.png>).
 
 ---
 
 #### Screenshot 20 — Target group showing healthy targets after replacement
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 20.png>).
 
 ---
 
 #### Screenshot 21 — Evidence that an instance was removed, detached, placed in Standby, or stopped in one Availability Zone
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 21(a).png>).
 
 ---
 
 #### Screenshot 22 — Browser showing that the ALB DNS endpoint still works during the change
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 22.png>).
 
 ---
 
@@ -218,7 +220,7 @@ Summarize the VPC/subnet layout, the ALB and Auto Scaling Group setup, the priva
 
 #### Screenshot 23 — A simple architecture diagram, which may be hand-drawn, or an AWS console overview showing the components
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot 23.png>).
 
 ---
 
@@ -226,19 +228,24 @@ Add your screenshot here.
 
 Summarize the VPC and subnets across the two Availability Zones.
 
-Write your answer here.
+VPC Name: MY-HA-APP
+CIDR Block: 10.0.0.0/16
+Region: eu-north-1 (Europe — Stockholm)
+Internet Gateway: ha-igw (attached to MY-HA-APP VPC)
+NAT Gateway: ha-nat-gw (deployed in ha-public-1a with Elastic IP).\
+Both public subnets span two Availability Zones (eu-north-1a and eu-north-1b) ensuring the ALB distributes traffic across two independent fault domains. Both private subnets also span two AZs ensuring the Multi-AZ RDS has a primary instance in eu-north-1a and an automatic standby in eu-north-1b for failover.
 
 Summarize the ALB and Auto Scaling Group setup.
 
-Write your answer here.
+The ASG maintains a minimum of 2 instances, one in each Availability Zone at all times. If either instance fails its ELB health check, the ASG automatically terminates it and launches a replacement in the same AZ. The ALB detects unhealthy targets and stops routing traffic to them within seconds, while continuing to serve traffic through the healthy instance in the other AZ. Once the replacement instance passes its health checks, the ALB resumes sending traffic to both AZs restoring full redundancy.
 
 Summarize the private Multi-AZ RDS setup.
 
-Write your answer here.
+The RDS instance uses Multi-AZ deployment which maintains a synchronous standby replica in a separate Availability Zone. AWS automatically replicates all data from the primary instance in eu-north-1b to the standby in eu-north-1a in real time. If the primary instance fails, experiences a hardware fault, or requires maintenance, AWS automatically promotes the standby to primary within 60-120 seconds without any manual intervention. The endpoint DNS name remains the same throughout failover so the application reconnects automatically.
 
 Summarize the results of both high-availability tests.
 
-Write your answer here.
+The ALB is the critical HA component it continuously monitors instance health and reroutes traffic within seconds of detecting a failure. The ASG ensures minimum capacity is always maintained by automatically replacing terminated instances. The Multi-AZ RDS provides database-level HA independently of the web tier even if the primary database AZ fails, the standby promotes automatically without any application change required. Together these three components ALB, ASG, and Multi-AZ RDS create redundancy at every layer of the two-tier architecture ensuring no single point of failure can take down the application.
 
 ---
 
@@ -254,13 +261,13 @@ Publish a LinkedIn post about the high-availability build, including the ALB URL
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/hope-odu_highly-available-two-tier-application-on-activity-7501260315515564034-9b1n?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q`
 
 ---
 
 #### Screenshot of LinkedIn post
 
-Add your screenshot here.
+![](<screenshots/Assignment 5/Screenshot of linkedin post.png>).
 
 ---
 
