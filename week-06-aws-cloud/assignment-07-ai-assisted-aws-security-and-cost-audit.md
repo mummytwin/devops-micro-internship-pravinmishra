@@ -24,13 +24,13 @@ Confirm your AWS CLI is authenticated and can see the S3 bucket, EC2 instance(s)
 
 #### Screenshot 1 — Output of `aws s3 ls`, the EC2 instance table, and the RDS instance table (blur the Account ID if visible)
 
-Add your screenshot here.
+![](<screenshots/Assignment 7/Screenshot 1.png>).
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `find . -maxdepth 4 -type d | sort`
 
-Add your screenshot here.
+![](<screenshots/Assignment 7/Screenshot 2.png>).
 
 ---
 
@@ -38,11 +38,11 @@ Add your screenshot here.
 
 **1. Which resources from this week's earlier assignments did you see in the listings?**
 
-Write your answer here.
+The listings showed the EC2 instances from the HA deployment (ha-web-asg instances), the RDS MySQL instance (ha-database), and any S3 buckets created during the week. These confirm the resources built across Tasks 1-9 of the HA assignment are still running and accessible via the CLI.
 
 **2. Why must you confirm your resources exist before writing an audit script against them?**
 
-Write your answer here.
+The audit script targets specific resource identifiers S3 bucket names, RDS instance IDs, and security group IDs. If a resource no longer exists or was renamed, the script will return errors or silent failures rather than accurate audit results. Confirming existence first ensures the script runs against real, live resources and produces trustworthy evidence.
 
 ---
 
@@ -56,7 +56,7 @@ Create a `CLAUDE.md` in your workspace that tells Claude the audit script is rea
 
 #### Screenshot 3 — `CLAUDE.md` open in VS Code showing all four sections
 
-Add your screenshot here.
+![](<screenshots/Assignment 7/Screenshot 3.png>).
 
 ---
 
@@ -64,11 +64,11 @@ Add your screenshot here.
 
 **1. Why should Claude never be given permission to run `revoke-security-group-ingress` itself, even if the fix is obviously correct?**
 
-Write your answer here.
+Security group rules control access to live production resources. An automated revocation based on a misread report, wrong resource ID, or incorrect assumption could lock out legitimate users, break application connectivity, or trigger an outage. The engineer must verify the finding, understand the impact, and consciously approve the change — that accountability cannot be delegated to an AI. A correct fix applied to the wrong security group is still an outage.
 
 **2. Which rule prevents Claude from claiming a finding that the report does not support?**
 
-Write your answer here.
+The rule "Do not claim a finding unless the report contains supporting evidence" prevents unsupported findings. This forces Claude to base every conclusion strictly on the actual script output rather than assumptions, general knowledge, or hallucinations about what the account might contain.
 
 ---
 
@@ -82,7 +82,14 @@ Ask Claude Code to propose a read-only audit plan covering five checks — S3 pu
 
 #### Screenshot 4 — Claude Code showing the five-check plan
 
-Add your screenshot here.
+![](<screenshots/Assignment 7/Screenshot 4(a).png>).
+![](<screenshots/Assignment 7/Screenshot 4(b).png>).
+![](<screenshots/Assignment 7/Screenshot 4(c).png>).
+![](<screenshots/Assignment 7/Screenshot 4(d).png>).
+![](<screenshots/Assignment 7/Screenshot 4(e).png>).
+![](<screenshots/Assignment 7/Screenshot 4(f).png>).
+![](<screenshots/Assignment 7/Screenshot 4(g).png>).
+![](<screenshots/Assignment 7/Screenshot 4(h).png>).
 
 ---
 
@@ -90,11 +97,11 @@ Add your screenshot here.
 
 **1. Which part of this task represents the Gather phase?**
 
-Write your answer here.
+The Gather phase is represented by Claude reading CLAUDE.md and proposing the exact AWS CLI commands that will be used to collect evidence. Claude inspects the project context and safety rules before producing the plan — this is gathering information about what the audit needs to do before any action is taken.
 
 **2. Did every proposed command start with `describe-`, `get-`, or `list-`? Why does that matter?**
 
-Write your answer here.
+Yes — all five proposed commands use read-only prefixes. This matters because AWS CLI commands starting with describe-, get-, and list- are guaranteed to be read-only — they retrieve information without modifying any resource. Commands starting with create-, modify-, delete-, revoke-, or authorize- make changes. Using only read-only prefixes ensures the planning phase cannot accidentally alter the live account regardless of what Claude proposes.
 
 ---
 
@@ -110,19 +117,19 @@ Make it executable and confirm it has no syntax errors.
 
 #### Screenshot 5 — Top section of `aws-audit.sh` showing the variables and the checks array
 
-Add your screenshot here.
+![](<screenshots/Assignment 7/Screenshot 5.png>).
 
 ---
 
 #### Screenshot 6 — One check function (for example `check_ssh_open_to_world`) showing the AWS CLI call and conditional
 
-Add your screenshot here.
+![](<screenshots/Assignment 7/Screenshot 6.png>).
 
 ---
 
 #### Screenshot 7 — Output of `bash -n scripts/aws-audit.sh` and `ls -l scripts/aws-audit.sh`
 
-Add your screenshot here.
+![](<screenshots/Assignment 7/Screenshot 7.png>).
 
 ---
 
@@ -130,15 +137,15 @@ Add your screenshot here.
 
 **1. What is stored in the checks array, and how does the loop use it?**
 
-Write your answer here.
+The checks array stores the names of the five check functions as strings. The for loop iterates through each name and calls it as a function using "$check_function"  this means adding a new check only requires adding the function and its name to the array, without changing the main execution logic.
 
 **2. Why does every AWS CLI call in this script use `--query` and `--output text` instead of parsing raw JSON?**
 
-Write your answer here.
+--query extracts exactly the field needed using JMESPath, and --output text returns a plain string instead of JSON. This makes the result directly comparable in a bash if statement without needing jq or any JSON parser. It also makes the script portable, it runs on any system with AWS CLI installed..
 
 **3. Why does the script use different exit codes for HEALTHY, WARN, and FAIL?**
 
-Write your answer here.
+Exit codes allow other tools, monitoring systems, and CI/CD pipelines to programmatically read the audit result without parsing text. Exit 0 (HEALTHY) is the universal success signal. Exit 1 (WARN) signals degraded security posture. Exit 2 (FAIL) signals a critical finding requiring immediate attention. This makes the script production-grade — it can trigger alerts or block deployments based on the exit code alone.
 
 ---
 
@@ -152,13 +159,13 @@ Run the script against your live AWS account and capture the current state befor
 
 #### Screenshot 8 — Output of `./scripts/aws-audit.sh` showing your Full Name and all five checks
 
-Add your screenshot here.
+![](<screenshots/Assignment 7/Screenshot 8.png>).
 
 ---
 
 #### Screenshot 9 — Output showing the captured exit code and final summary
 
-Add your screenshot here.
+![](<screenshots/Assignment 7/Screenshot 9.png>).
 
 ---
 

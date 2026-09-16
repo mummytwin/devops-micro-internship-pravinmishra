@@ -20,7 +20,7 @@ Create an architecture diagram showing the custom VPC (10.0.0.0/16), the six sub
 
 #### Diagram image or link
 
-Add your diagram image or link here.
+![](<screenshots/Assignment 6/Screenshot of Architecture diagram.png>).
 
 ---
 
@@ -34,13 +34,28 @@ Record the AWS Region used and list every AWS service used across networking, co
 
 **Region:**
 
-Write your answer here.
+AWS Region
+
+Field	                     Value
+Region Name	                 Europe (Stockholm)
+Region Code	                 eu-north-1
+Availability Zones Used	     eu-north-1a + eu-north-1b.
 
 ---
 
 **Services:**
 
-Write your answer here.
+AWS Services Used.
+
+Complete Service Count
+
+Category	       Services Used
+Networking	       VPC, Subnets, IGW, NAT Gateway, Elastic IP, Route Tables
+Compute	           EC2, Launch Template, Auto Scaling Group, Key Pairs, User Data
+Load Balancing	   ALB, Target Group, Listener, Health Checks
+Security	       Security Groups (3), KMS Encryption, Key Pair
+Database	       RDS MySQL, Multi-AZ, DB Subnet Group, Automated Backups
+Total	           20+ AWS services and features
 
 ---
 
@@ -56,7 +71,7 @@ Confirm the Book Review App loads through the public ALB DNS name.
 
 Paste your public ALB DNS name here:
 
-`Add your URL here`
+`http://book-review-dev-public-alb-1334174441.eu-north-1.elb.amazonaws.com/`
 
 ---
 
@@ -70,31 +85,32 @@ Capture visual proof of every tier and load balancer.
 
 #### Web EC2
 
-Add your screenshot here.
+![](<screenshots/Assignment 6/Screenshot of web tier EC2 in public subnet.png>).
 
 ---
 
 #### App EC2
 
-Add your screenshot here.
+![](<screenshots/Assignment 6/Screenshot of app-Ec2.png>).
 
 ---
 
 #### Public ALB
 
-Add your screenshot here.
+![](<screenshots/Assignment 6/Screenshot of public -alb.png>).
 
 ---
 
 #### Internal ALB
 
-Add your screenshot here.
+![](<screenshots/Assignment 6/Screenshot of internal-alb.png>).
 
 ---
 
 #### RDS + Replica
 
-Add your screenshot here.
+![](<screenshots/Assignment 6/Screenshot of RDS+REPLICA(1).png>).
+![](<screenshots/Assignment 6/Screenshot of RDS+REPLICA(2).png>)
 
 ---
 
@@ -114,19 +130,53 @@ Summarize what worked in the final deployment, the issues encountered and how ea
 
 **What worked:**
 
-Write your answer here.
+•  The AWS infrastructure was deployed, and the public ALB became reachable. 
+•  SSH access worked using the newly created capstone-aws-key. 
+•  The web instances were reachable and Nginx was installed and running. 
+•  The public ALB was correctly forwarding traffic to the web target group on port 3000. 
+•  Nginx was configured to listen on port 3000 and reverse-proxy requests to the application on port 8080.
+.
 
 ---
 
 **Issues + fixes:**
 
-Write your answer here.
+Issue 1 — SSH private-key permissions
+Private key permissions initially needed tightening.
+Fix: an chmod 400 ~/.ssh/capstone-aws-key
+
+Issue 2 — Public ALB returned 502 Bad Gateway
+ALB could reach the web target, but the target itself returned 502
+Fix: Investigated the EC2 instance and Nginx configuration.
+
+Issue 3 — Target group unhealthy
+book-review-dev-web-tg showed targets unhealthy/draining
+Fix: Health check reached Nginx on port 3000, but Nginx couldn't reach the backend
+
+Issue 4 — Nothing listening on port 8080
+ss and curl showed no application listening on 127.0.0.1:8080
+Fix: This identified the actual backend problem
+
+Issue 5 — Old EC2 instance disappeared
+SSH to the earlier instance eventually timed out
+Fix: Recognized that the ASG could replace instances, so debugging needed to move to the current instance rather than relying on the old server
+
+Issue 6 — Nginx returned 502
+Nginx configuration showed proxy_pass http://127.0.0.1:8080
+Fix: Confirmed Nginx itself was working; the missing backend on 8080 was the cause.
 
 ---
 
 **Tools/sources used:**
 
-Write your answer here.
+AWS Management Console:
+
+EC2 instances
+Security groups
+Target groups
+Load balancers
+RDS
+Auto Scaling Groups.
 
 ---
 
@@ -142,13 +192,13 @@ Publish a LinkedIn post sharing the capstone deployment, including the public AL
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/hope-odu_devops-aws-terraform-activity-7503808469733408768-ns_y?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q
 
 ---
 
 #### Screenshot of LinkedIn post
 
-Add your screenshot here.
+![](<screenshots/Assignment 6/Screenshot of linkedin post.png>).
 
 ---
 
