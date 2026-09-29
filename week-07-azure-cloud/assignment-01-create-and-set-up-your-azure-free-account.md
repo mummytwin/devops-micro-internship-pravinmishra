@@ -44,7 +44,7 @@ Sign in to the Azure Portal, locate key services (Resource Groups, Virtual Machi
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
-Write your answer here.
+I plan to explore Azure Virtual Machines first because they allow me to deploy and manage cloud-based servers. I will also explore Azure Virtual Network to understand how resources communicate securely within a cloud environment. Next, I want to learn about Azure Storage for storing application files and data. These services will help me build a strong foundation in deploying and managing applications on Azure.
 
 ---
 

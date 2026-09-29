@@ -173,7 +173,7 @@ Run the script against your live AWS account and capture the current state befor
 
 **1. What is the overall status of your baseline audit?**
 
-Write your answer here.
+Since at least one FAIL result was present, the script exited with code 2 and the overall status was recorded as FAIL in reports/aws-audit-report.txt.
 
 **2. Did any check return FAIL or WARN? If so, which one, and what evidence did it show?**
 
