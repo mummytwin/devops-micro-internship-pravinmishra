@@ -96,7 +96,12 @@ https://github.com/mummytwin/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
 Paste your LinkedIn post URL here:
 
+HEAD
 https://www.linkedin.com/posts/hope-odu_terraform-ugcPost-7482195117408403456-pozH/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFi9QKUB8YFTHgZLGCY97rJ9u0Stdj7th8Q
+=======
+`Add your URL here`
+
+upstream/main
 ---
 
 # Completion Checklist
