@@ -177,11 +177,18 @@ Since at least one FAIL result was present, the script exited with code 2 and th
 
 **2. Did any check return FAIL or WARN? If so, which one, and what evidence did it show?**
 
-Write your answer here.
+Yes. Two checks returned FAIL and one returned WARN.
+
+FAIL: SSH open to the world. The report showed 1 security group(s) allow SSH (port 22) from 0.0.0.0/0. This was a real finding: the security group attached to my EC2 instances allowed SSH from any IP address on the internet.
+
+FAIL: S3 public ACLs. The report showed BlockPublicAcls=None, IgnorePublicAcls=None. When I investigated, I found this was a false finding. The script was still pointing at a bucket name from an earlier setup instead of my current bucket (hope-odu-audit-7088). The None values appear when the AWS CLI call errors out, so they didn’t mean the bucket was misconfigured. After I corrected the bucket name in the script, this check passed.
+
+
+The other two checks passed: no security group allowed MySQL (port 3306) from 0.0.0.0/0, and the RDS instance ha-database was not publicly accessible..
 
 **3. If every check passed, what does that tell you about the security posture of your account so far?**
 
-Write your answer here.
+My baseline did not fully pass, so this is hypothetical. If every check had passed, it would mean the five things the script checks (S3 public ACLs, SSH and MySQL open to the world, RDS public access, EBS encryption) were in good shape. It would not mean the account was fully secure, because the script doesn’t cover IAM, MFA, logging or other ports. A pass can also be empty if there are no resources to check..
 
 ---
 
@@ -195,13 +202,13 @@ Turn the script into a Claude Code skill named `/aws-audit` that runs the script
 
 #### Screenshot 10 — `SKILL.md` showing the frontmatter, tool restrictions, and safety rules
 
-Add your screenshot here.
+![](<screenshots/Assignment 7/Screenshot 10.png>).
 
 ---
 
 #### Screenshot 11 — `/aws-audit` output showing findings, cost/risk impact, and a recommended remediation command (or a clean report if your baseline passed everything)
 
-Add your screenshot here.
+![](<screenshots/Assignment 7/Screenshot 11.png>).
 
 ---
 
@@ -209,15 +216,15 @@ Add your screenshot here.
 
 **1. Why does this skill have Bash, Read, and Grep, but not Write?**
 
-Write your answer here.
+The skill only needs to run the audit script, read the report, and search it for findings, which Bash, Read, and Grep cover. Write isn’t needed, so it’s left out as least privilege. Without it, Claude can’t edit or overwrite files, including the report or script, even by mistake..
 
 **2. What part is performed by Bash, and what part is performed by Claude?**
 
-Write your answer here.
+Bash does the evidence gathering. The script runs the same read-only AWS CLI commands every time and records a PASS, WARN, or FAIL for each check in the report. Claude does the analysis. It reads the report, explains each finding, estimates the cost or risk impact, and recommends a remediation command for me to review and run myself..
 
 **3. Why is estimating cost/risk impact something the AI adds on top of a plain PASS/FAIL script?**
 
-Write your answer here.
+A plain script can only report PASS, WARN, or FAIL. It can’t say what a finding means in practice. Claude adds that context. For example, unencrypted EBS volumes cost nothing extra but are a compliance risk, while an open SSH port is a security exposure and an idle EC2 instance is a monthly cost. That helps me decide which finding to fix first.
 
 ---
 
@@ -231,13 +238,13 @@ Pick one real finding from your baseline report (or deliberately open a security
 
 #### Screenshot 12 — Output of the `revoke-security-group-ingress` and `authorize-security-group-ingress` commands you ran yourself
 
-Add your screenshot here.
+![](<screenshots/Assignment 7/Screenshot 12.png>).
 
 ---
 
 #### Screenshot 13 — Rerun of `./scripts/aws-audit.sh` showing the finding is now PASS
 
-Add your screenshot here.
+![](<screenshots/Assignment 7/Screenshot 13.png>).
 
 ---
 
@@ -245,19 +252,19 @@ Add your screenshot here.
 
 **1. Which exact finding did you fix, and what command did you run?**
 
-Write your answer here.
+I fixed the SSH open to the world finding: the audit reported that 1 security group allowed port 22 from 0.0.0.0/0. I first added a rule allowing SSH only from my own IP, then removed the open rule.
 
 **2. Why did you scope the new rule to your own IP address instead of leaving it open to `0.0.0.0/0`?**
 
-Write your answer here.
+0.0.0.0/0 lets anyone on the internet try to connect to SSH, and automated scanners find open port 22 within hours. Scoping the rule to my own IP (/32) means only my address can reach SSH, which follows least privilege and shrinks the attack surface while I can still administer the instance.
 
 **3. Did Claude execute the remediation command, or did you? Why does that matter?**
 
-Write your answer here.
+I ran the remediation command myself. Claude only analyzed the report and recommended a fix, and the skill was set up so it can’t change my account. This matters because a wrong reading of the evidence could turn into an outage or a security problem. For example, a bad security group change could lock me out of my own instance. Keeping the human as the one who reviews and runs the command keeps accountability with me.
 
 **4. Which phase of the Agentic Loop does the Bash script represent? Which phase does Claude's explanation represent? Which phase is you running the fix?**
 
-Write your answer here.
+The Bash script is the Gather phase, because it collects evidence with read-only AWS CLI calls. Claude’s explanation is the Analyze phase, where it interprets the findings and estimates cost and risk. Me running the fix is the Human Act phase. Re-running the audit afterward is the Verify phase, which closes the loop.
 
 ---
 
@@ -284,13 +291,13 @@ Suggested tags:
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://lnkd.in/p/enXkanTC`
 
 ---
 
 #### Screenshot of Published LinkedIn Post
 
-Add your screenshot here.
+![](<screenshots/Assignment 7/Screenshot of linkedin post.png>).
 
 ---
 
